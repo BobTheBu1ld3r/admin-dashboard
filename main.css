@@ -71,7 +71,7 @@ header {
 }
 
 main {
-  background-color: lightblue;
+  background-color: rgb(236, 236, 236);
 
   display: grid;
   grid-template: 50px 1fr 1fr / 3fr 1fr;
@@ -87,7 +87,6 @@ main {
 }
 
 .projects {
-  background-color: rgb(236, 236, 236);
   grid-area: projects;
   padding: 40px 16px;
 
@@ -103,7 +102,7 @@ main {
   padding: 32px 16px 24px 24px;
 
   display: grid;
-  grid-template-rows: auto 1fr 50px;
+  grid-template-rows: auto 1fr auto;
   align-items: start;
 }
 
@@ -117,7 +116,7 @@ main {
 }
 
 .icon-container .icon {
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 .announcements {
