@@ -18,8 +18,33 @@ body {
 }
 
 .sidebar {
-  background-color: rgb(58, 58, 58);
+  background-color: #58aff7;
+  color: rgb(255, 255, 255);
+  padding: 8px;
+
   grid-row: 1 / span 2;
+
+  display: grid;
+  grid-template: auto auto auto / 1fr;
+  align-content: start;
+  gap: 24px;
+}
+
+.sidebar > ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.icon {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #fff;
 }
 
 header {
