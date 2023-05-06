@@ -10,10 +10,16 @@
 
 body {
   margin: 0px;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 1fr 13fr;
+  grid-template-columns: 1fr 5fr;
 }
 
 .sidebar {
   background-color: lightgray;
+  grid-row: 1 / span 2;
 }
 
 main {
