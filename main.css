@@ -22,10 +22,36 @@ body {
   grid-row: 1 / span 2;
 }
 
-main {
-  background-color: lightblue;
-}
-
 header {
   background-color: lightcyan;
+}
+
+main {
+  background-color: lightblue;
+
+  display: grid;
+  grid-template: 50px 1fr 1fr / 3fr 1fr;
+  grid-template-areas:
+    "profile-bar profile-bar"
+    "projects announcements"
+    "projects trending";
+}
+
+.profile-bar {
+  background-color: aqua;
+  grid-area: profile-bar;
+}
+
+.projects {
+  background-color: blueviolet;
+  grid-area: projects;
+}
+
+.announcements {
+  background-color: antiquewhite;
+  grid-area: announcements;
+}
+
+.trending {
+  grid-area: trending;
 }
