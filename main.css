@@ -18,7 +18,7 @@ body {
 }
 
 .sidebar {
-  background-color: lightgray;
+  background-color: rgb(58, 58, 58);
   grid-row: 1 / span 2;
 }
 
@@ -43,8 +43,17 @@ main {
 }
 
 .projects {
-  background-color: blueviolet;
+  background-color: rgb(216, 216, 216);
   grid-area: projects;
+  padding: 40px 8px;
+
+  display: grid;
+  grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+  gap: 8px;
+}
+
+.project {
+  border: 2px solid #333;
 }
 
 .announcements {
