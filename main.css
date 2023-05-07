@@ -14,10 +14,6 @@
   box-sizing: inherit;
 }
 
-svg {
-  fill: "white";
-}
-
 body {
   margin: 0px;
   height: 100vh;
@@ -53,6 +49,13 @@ body {
 
 .sidebar li {
   list-style-type: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+
+  fill: white;
 }
 
 .sidebar li + li {
@@ -67,8 +70,8 @@ body {
   background-color: #fff;
 }
 
-img {
-  stroke: white;
+svg {
+  height: 1.5rem;
 }
 
 .project .icon {
