@@ -9,6 +9,7 @@
   --main-color: white;
   --blue-accent: #1992d4;
   --orange-accent: #f0b429;
+  --grey-bcg: #e2e8f0;
 }
 
 *,
@@ -120,7 +121,7 @@ input {
   width: 80%;
   padding: 8px 16px;
   border-radius: 16px;
-  background-color: #d4d4d4;
+  background-color: var(--grey-bcg);
 }
 
 input:focus,
@@ -134,7 +135,7 @@ header .icon {
 }
 
 main {
-  background-color: rgb(236, 236, 236);
+  background-color: var(--grey-bcg);
 
   display: grid;
   grid-template: auto auto auto / 3fr 1fr;
