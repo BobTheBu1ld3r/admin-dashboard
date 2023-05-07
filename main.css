@@ -206,6 +206,10 @@ main > div > h3 {
   margin: 0px;
 }
 
+.project svg {
+  margin-right: 16px;
+}
+
 .icon-container {
   align-self: end;
   justify-self: end;
