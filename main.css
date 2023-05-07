@@ -48,6 +48,14 @@ body {
   margin: 0;
 }
 
+.logo {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
 .logo svg {
   height: 3rem;
   width: 3rem;
