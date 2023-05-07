@@ -121,6 +121,11 @@ input {
   background-color: #d4d4d4;
 }
 
+input:focus,
+input:focus-visible {
+  outline: none;
+}
+
 header .icon {
   border: 2px solid rgb(36, 36, 36);
   background-color: transparent;
