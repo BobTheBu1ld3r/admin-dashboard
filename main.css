@@ -182,10 +182,12 @@ main {
 
 .projects {
   grid-area: projects;
+  padding-left: 48px;
 
   display: grid;
   grid-template: auto 1fr 1fr 1fr/ 1fr 1fr;
-  gap: 16px;
+  row-gap: 32px;
+  column-gap: 48px;
 }
 
 main > div > h3 {
