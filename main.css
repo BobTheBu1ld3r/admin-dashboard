@@ -108,6 +108,12 @@ header {
   justify-content: start;
 }
 
+header img {
+  position: relative;
+  height: 3rem;
+  left: -20px;
+}
+
 header > *:nth-child(1n + 3) {
   justify-self: end;
 }
@@ -160,6 +166,13 @@ main {
   width: 4rem;
   border-radius: 50%;
   background-color: #949494;
+  overflow: hidden;
+}
+
+.large-profile img {
+  height: 4rem;
+  position: relative;
+  left: -25px;
 }
 
 .user-name {
@@ -320,9 +333,8 @@ h4 {
 
 .trending .trending-project:nth-child(2) img {
   position: relative;
-  right: 10px;
-  top: 0px;
-  width: 4.5rem;
+  height: 3rem;
+  right: 20px;
 }
 
 .trending .trending-project:nth-child(3) img {
@@ -333,8 +345,9 @@ h4 {
 
 .trending .trending-project:nth-child(4) img {
   position: relative;
-  height: 3rem;
-  right: 20px;
+  right: 10px;
+  top: 0px;
+  width: 4.5rem;
 }
 
 .trending-project .profile {
