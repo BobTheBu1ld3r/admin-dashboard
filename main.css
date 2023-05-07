@@ -309,6 +309,32 @@ h4 {
   width: 3rem;
   border-radius: 50%;
   background-color: #949494;
+  overflow: hidden;
+}
+
+.trending .trending-project:nth-child(1) img {
+  position: relative;
+  height: 3rem;
+  left: -10px;
+}
+
+.trending .trending-project:nth-child(2) img {
+  position: relative;
+  right: 10px;
+  top: 0px;
+  width: 4.5rem;
+}
+
+.trending .trending-project:nth-child(3) img {
+  position: relative;
+  width: 3rem;
+  left: 0px;
+}
+
+.trending .trending-project:nth-child(4) img {
+  position: relative;
+  height: 3rem;
+  right: 20px;
 }
 
 .trending-project .profile {
