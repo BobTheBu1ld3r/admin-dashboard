@@ -77,6 +77,14 @@ body {
   fill: white;
 }
 
+.sidebar li:hover {
+  color: #e6e6e6;
+  fill: #e6e6e6;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 3px;
+}
+
 .sidebar li + li {
   margin-top: 2rem;
 }
@@ -195,6 +203,10 @@ main {
   border-radius: 1.1rem;
 }
 
+.profile-bar button:hover {
+  box-shadow: 0px 0px 0px 3px white, 0px 0px 0px 5px var(--blue-accent);
+}
+
 .projects,
 .announcements,
 .trending {
@@ -229,6 +241,7 @@ main > div > h3 {
   display: grid;
   grid-template-rows: auto 1fr auto;
   align-items: start;
+  box-shadow: 3px 3px 10px rgb(207, 207, 207);
 }
 
 .project > * {
@@ -248,6 +261,12 @@ main > div > h3 {
 .project svg {
   margin-right: 16px;
   margin-top: 16px;
+  fill: var(--secondary-color);
+}
+
+.project svg:hover {
+  transform: scale(1.1);
+  fill: black;
 }
 
 .icon-container {
